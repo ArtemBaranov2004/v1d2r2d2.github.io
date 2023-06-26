@@ -2,48 +2,58 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30vh;
-  background: #1b2837;
+  min-height: 60vh;
+  background-color: #344c6d;
+  padding: 0 20px;
 }
 p2 {
- position: relative;
- left: -230px;
- top: -200px;
- color: #FFEFD5;
+  margin: -35px;
+  position: relative;
+  left: -230px;
+  top: -185px;
+  color: #ffffff;
 }
 h1 {
-  padding: 10px;
-  margin: 10px;
-  color: #FFEFD5;
-  min-height: 50vh;
+  top: -200px;
+  padding: 40px;
+  margin: 40px;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, rgb(0, 140, 255), rgb(161, 87, 100));
+  border-radius: 15%;
+  width: 185px;
+  height: 50px;
+  position: relative;
 }
 div {
- display: flex;
- height: 55px;
- width: 212px;
- color: #FFEFD5;
+  display: flex;
+  height: 70px;
+  width: 212px;
+  color: #ffffff;
 }
 button {
- position: relative;
- top: -16px;
- height: 57px;
- margin: 1px;
- width: 210px;
+  position: relative;
+  top: 0px;
+  height: 57px;
+  margin: 1px;
+  width: 210px;
+  border-radius: 25%;
 }
 input {
- margin-bottom: 40px;
- padding: 20px;
- left: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+  left: 30px;
+  border-radius: 15%;
+  background-image: linear-gradient(45deg, rgb(202, 129, 141), rgb(56, 139, 207));
 }
 label {
- color: #FFEFD5;
- position: relative;
- left: -200px;
- top: 40px;
+  color: #ffffff;
+  position: relative;
+  left: -200px;
+  top: 50px;
 }
 article {
- color: #FFEFD5;
+  color: #ffffff;
 }
 p {
- color: #FFEFD5;
+  color: #ffffff;
 }
